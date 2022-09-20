@@ -9,7 +9,7 @@ def is_even(num):
 print(is_even(2))
 print(is_even(5))
 
-nums = map(int,['1','2','3']) 
+nums = map(int,['1','2','3']) #map関数のイテレータは一度しか取り出しできないので再度記述
 even_nums = filter(lambda x: x % 2 == 0,nums)
 #第一引数の関数実行時にtrueのものだけ
 #取り出す
